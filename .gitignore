@@ -1,0 +1,4 @@
+/node_modules/
+/dist/
+/src/_tests/_cache/
+/src/_tests/_coverage/

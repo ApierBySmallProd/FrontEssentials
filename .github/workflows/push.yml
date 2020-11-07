@@ -1,0 +1,19 @@
+name: Tests
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Initialize the project
+        run: yarn
+      - name: Run the tests
+        run: yarn run test
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Initialize the project
+        run: yarn
+      - name: Build it
+        run: yarn run build

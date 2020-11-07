@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "sourceMap": false,
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "removeComments": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "preserveConstEnums": true,
+    "target": "es2017",
+    "allowJs": true,
+    "strictNullChecks": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["dom", "es7", "es2017"],
+    "types": ["jest", "node"]
+  },
+  "include": ["./**/*"],
+  "exclude": ["./node_modules", "./dist/**/*.*", "./src/_tests"]
+}
